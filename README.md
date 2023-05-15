@@ -1,5 +1,5 @@
 ## Getting Started
-
+```
 First, run this command to download all packages and dependencies for project:
 
 ```bash
