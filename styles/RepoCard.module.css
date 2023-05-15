@@ -1,0 +1,33 @@
+.repo-section {
+    background-color: var(--bg-secondary);
+    box-shadow: none;
+    border-radius: 15px;
+    padding: 48px;
+    margin-bottom: 20px;
+  }
+
+  .repo-text {
+    color: var(--txt-high-contrast);
+    margin-bottom: 12px
+  }
+
+  .repo-label {
+    color: var(--primary);
+  }
+  
+  .repo-link-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .repo-link-icon path {
+    fill: var(--txt-mid-contrast);
+  }
+
+  @media (max-width: 650px) {
+    .repo-section {
+      padding: 20px;
+    }
+  }

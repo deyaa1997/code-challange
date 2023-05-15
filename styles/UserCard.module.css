@@ -1,0 +1,31 @@
+.user-section {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-secondary);
+    box-shadow: none;
+    border-radius: 15px;
+    padding: 48px;
+    margin-bottom: 20px;
+  }
+
+  .user-name {
+    color: var(--txt-high-contrast);
+    margin-bottom: 12px
+  }
+  
+  .user-link-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .user-link-icon path {
+    fill: var(--txt-mid-contrast);
+  }
+
+  @media (max-width: 650px) {
+    .user-section {
+      padding: 20px;
+    }
+  }

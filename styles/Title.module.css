@@ -1,0 +1,6 @@
+.header-logo {
+    font-size: 1.625rem;
+    line-height: 38px;
+    color: var(--txt-high-contrast);
+    font-weight: 700;
+  }
